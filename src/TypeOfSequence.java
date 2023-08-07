@@ -25,7 +25,6 @@ public class TypeOfSequence {
 			if (in[i] <= in[i-1]) {
 				return "NO";
 			}
-
 		}
 		return "YES";
 	}
