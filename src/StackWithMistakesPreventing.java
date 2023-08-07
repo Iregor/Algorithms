@@ -26,10 +26,9 @@ exit
 Перед исполнением операций back и pop программа должна проверять, содержится ли в стеке хотя бы один элемент. Если во входных данных встречается операция back или pop, и при этом стек пуст, то программа должна вместо числового значения вывести строку error.
 */
 
-import java.util.*;
 import java.io.*;
 
-public class StackWithMistakesPreservence {
+public class StackWithMistakesPreventing {
 	public static void main(String[] args) throws IOException {
 		try (BufferedReader br = new BufferedReader(new FileReader("input.txt"));
 		BufferedWriter bw = new BufferedWriter(new FileWriter("output.txt"))) {
