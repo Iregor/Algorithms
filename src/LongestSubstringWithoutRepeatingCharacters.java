@@ -34,13 +34,13 @@ import java.util.Set;
 
 public class LongestSubstringWithoutRepeatingCharacters {
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        Solution3 sol = new Solution3();
         String s = "abcabcbb";
         System.out.println(sol.lengthOfLongestSubstring(s));
     }
 }
 
-class Solution {
+class Solution3 {
     public int lengthOfLongestSubstring(String s) {
         int maxLength = 0;
         Set<Character> uniqueCharacters = new HashSet<>();
